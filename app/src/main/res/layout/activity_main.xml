@@ -23,7 +23,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
-            android:text="search"/>
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:text="@string/search"/>
     </LinearLayout>
 
     <FrameLayout android:layout_width="match_parent"
@@ -43,3 +45,4 @@
             android:textStyle="bold"
             android:textColor="@color/black"/>
     </FrameLayout>
+</LinearLayout>
