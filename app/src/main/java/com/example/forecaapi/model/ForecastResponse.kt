@@ -1,3 +1,5 @@
 package com.example.forecaapi.model
 
-class ForecastResponse (val current: CurrentWeather)
+import com.example.forecaapi.CurrentWeather
+
+class ForecastResponse(val current: CurrentWeather)

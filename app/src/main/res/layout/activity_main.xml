@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white">
 
-    <LinearLayout android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="8dp">
 
-        <EditText android:id="@+id/queryInput"
+        <EditText
+            android:id="@+id/queryInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:layout_marginRight="16dp"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/black"/>
+            android:layout_marginRight="16dp"
+            android:layout_weight="2"
+            android:minHeight="48dp"
+            android:textColor="@color/black" />
 
-        <Button android:id="@+id/searchButton"
+        <Button
+            android:id="@+id/searchButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
-            android:textAllCaps="false"
-            android:textSize="18sp"
             android:text="@string/search"/>
     </LinearLayout>
 
-    <FrameLayout android:layout_width="match_parent"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
@@ -36,7 +40,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-        <TextView android:id="@+id/placeholderMessage"
+        <TextView
+            android:id="@+id/placeholderMessage"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

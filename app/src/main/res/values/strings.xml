@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ForecaApi</string>
+    <string name="app_name">Foreca API test</string>
     <string name="nothing_found">Ничего не найдено</string>
     <string name="something_went_wrong">Что-то пошло не так</string>
     <string name="search">Поиск</string>
